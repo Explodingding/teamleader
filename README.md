@@ -2,43 +2,36 @@
 
 HTML documents for the Ciner Glass Lommel application (CV, cover letter, interview prep, development pack).
 
-## Live site (recommended)
+## Live site
 
 **https://explodingding.github.io/teamleader/**
 
-The pack is deployed automatically on every push to `main` via GitHub Pages.
+### GitHub Pages setup (required once)
 
-### First-time setup (one minute)
+1. Repo → **Settings** → **Pages**
+2. **Build and deployment** → **Source**: **Deploy from a branch**
+3. **Branch**: `gh-pages` · folder **`/ (root)`** → **Save**
+4. Wait ~1 minute after the deploy workflow finishes on `main`
 
-1. Open **Settings → Pages** in this repo.
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-3. Push to `main` (or re-run the *Deploy application pack to GitHub Pages* workflow).
+The workflow copies everything from `html/` to the `gh-pages` branch. If Pages points at `main` instead, you will only see this README and **all document links will 404**.
 
-## Why opening files locally often “doesn’t work”
+## Why links break
 
-Double-clicking `html/index.html` opens it as `file://…`. Browsers block **ES module** scripts (used for Mermaid diagrams) from CDNs on `file://` pages. CSS and plain HTML still load, but diagrams stay blank.
+| Situation | What happens |
+|-----------|----------------|
+| Pages source = `main` (repo root) | Shows README; `cv.html` etc. do not exist → **404** |
+| Open `html/index.html` from disk (`file://`) | Mermaid diagrams fail; some assets blocked |
+| Pages source = `gh-pages` (correct) | All links work over HTTPS |
 
-Serving the same files over **HTTPS** (GitHub Pages, or a local server) fixes this.
-
-### Local preview (optional)
+## Local preview
 
 ```powershell
 cd html
 python -m http.server 8080
 ```
 
-Then open http://localhost:8080
-
-## Repo layout
-
-| Path | Contents |
-|------|----------|
-| `html/` | Application pack (published to Pages) |
-| `scripts/` | DWG/DXF extraction helper (`extract_dwg.py`) |
-| `01-*.md` … `05-*.md` | Polish planning templates |
-
-Large CAD files (`*.dwg`, `*.dxf`) are gitignored (GitHub 100 MB limit).
+Open http://localhost:8080 — links work locally; the GitHub base-path script only runs on `github.io`.
 
 ## PDF export
 
-From the live site or local server: open any document → **Print / Save PDF** in the toolbar.
+Open any document → **Print / Save PDF** in the toolbar (enable **Background graphics** for colours).
