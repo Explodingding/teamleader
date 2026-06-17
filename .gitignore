@@ -3,6 +3,9 @@
 *.dxf
 *.converted.dxf
 
+# html/ subfolder is a local working copy — root-level files are the published source
+html/
+
 # Python
 __pycache__/
 *.py[cod]

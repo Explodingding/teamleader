@@ -1,29 +1,12 @@
-name: Deploy application pack to GitHub Pages
-
+name: No-op (Pages serves from main root)
+# GitHub Pages is configured to serve from the main branch root.
+# HTML files live at the repo root alongside assets/.
+# No build step needed - just push to main and Pages updates automatically.
 on:
   push:
     branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
-  deploy:
+  status:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Publish html/ to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./html
-          force_orphan: true
+      - run: echo "Site served directly from main branch root. No build required."
