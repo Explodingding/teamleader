@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    (function () {
+      var path = location.pathname;
+      if (location.hostname.endsWith('github.io') && path.indexOf('/teamleader') === 0) {
+        var base = document.createElement('base');
+        base.href = '/teamleader/';
+        document.head.insertBefore(base, document.head.firstChild);
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utilities &amp; Site Scope — Ciner Glass Lommel</title>
+  <link rel="stylesheet" href="assets/print.css">
+</head>
+<body>
+  <nav class="toolbar no-print">
+    <a href="index.html" class="secondary">← All documents</a>
+    <button type="button" onclick="window.print()">Print / Save PDF</button>
+  </nav>
+
+  <main class="page page-wide page-doc">
+    <header class="doc-header">
+      <h1>Utilities &amp; Site Scope</h1>
+      <p class="subtitle">Complexity at Lommel — why the teamleader must see the whole system</p>
+      <div class="contact-row">
+        <span>Łukasz Klimowski · Electrician, Electrical Utilities</span>
+        <span class="sep">|</span>
+        <span>Ciner Glass, Lommel, Belgium</span>
+      </div>
+    </header>
+
+    <p class="lead">Electrical Utilities is responsible for <strong>reliable power supply</strong> and for <strong>supporting specialist installations</strong> across a large, multi-building site. This map reflects my current field understanding — useful for showing I already grasp the scale of the role.</p>
+
+    <section class="viz-section">
+      <h2>Site zones (buildings &amp; areas)</h2>
+      <p class="viz-caption">Figure 1 — Main zones where utilities work is performed (not to scale).</p>
+      <div class="site-grid">
+        <div class="site-tile highlight">
+          <strong>PC-10</strong>
+          Production complex — existing phase; extensive electrical infrastructure
+        </div>
+        <div class="site-tile highlight">
+          <strong>PC-20</strong>
+          New production building — commissioning and growth area
+        </div>
+        <div class="site-tile">
+          <strong>Utility building</strong>
+          Central utilities hub — distribution, panels, critical feeds
+        </div>
+        <div class="site-tile">
+          <strong>Batch House</strong>
+          Batch-related power and process utilities
+        </div>
+        <div class="site-tile wide">
+          <strong>SCADA pump assembly / related areas</strong>
+          Specialist equipment — coordination with automation interfaces
+        </div>
+        <div class="site-tile">
+          <strong>Automatic service warehouse</strong>
+          Low-oxygen environment — special safety and supply requirements
+        </div>
+        <div class="site-tile">
+          <strong>Site-wide routes</strong>
+          Large footprint — cable routes, trenches, external feeds
+        </div>
+        <div class="site-tile">
+          <strong>Specialist partner zones</strong>
+          Utilities supports power to specialist subcontractors/systems
+        </div>
+      </div>
+    </section>
+
+    <section class="viz-section">
+      <h2>System layers — what Utilities must hold together</h2>
+      <div class="layer-stack">
+        <div class="layer-row">
+          <div class="layer-label">Power backbone</div>
+          <div class="layer-body">
+            LV · MV · HV distribution, protections, switching
+            <div class="chips">
+              <span class="chip">Main distribution</span>
+              <span class="chip">Protections</span>
+              <span class="chip">Energisation discipline</span>
+            </div>
+          </div>
+        </div>
+        <div class="layer-row">
+          <div class="layer-label">Continuity</div>
+          <div class="layer-body">
+            Multiple <strong>UPS</strong> systems · <strong>Generator</strong> support for furnace when grid is out
+            <div class="chips">
+              <span class="chip">UPS (several)</span>
+              <span class="chip">Generator / stove support</span>
+              <span class="chip">Transfer scenarios</span>
+            </div>
+          </div>
+        </div>
+        <div class="layer-row">
+          <div class="layer-label">Alternative energy</div>
+          <div class="layer-body">
+            <strong>LPG installation</strong> — backup if ground gas network supply fails
+            <div class="chips">
+              <span class="chip">LPG backup path</span>
+              <span class="chip">Interlocks</span>
+            </div>
+          </div>
+        </div>
+        <div class="layer-row">
+          <div class="layer-label">Automation interface</div>
+          <div class="layer-body">
+            Many specialist installs on <strong>SCADA</strong> · some drives protected by <strong>waveguards</strong> (not all on SCADA)
+            <div class="chips">
+              <span class="chip">SCADA connected</span>
+              <span class="chip warn">Non-SCADA islands</span>
+              <span class="chip">Servo / drives</span>
+            </div>
+          </div>
+        </div>
+        <div class="layer-row">
+          <div class="layer-label">Utilities mission</div>
+          <div class="layer-body">
+            <strong>Supply power</strong> · support specialists · walk-down · document · prevent repeat outages
+            <div class="chips">
+              <span class="chip">Holistic ownership</span>
+              <span class="chip">Cross-trade coordination</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="viz-section">
+      <h2>Responsibility matrix (simplified)</h2>
+      <table class="data-table">
+        <tr>
+          <th>Domain</th>
+          <th>Utilities team</th>
+          <th>Specialists / SCADA</th>
+        </tr>
+        <tr>
+          <td>Power available &amp; safe at point of use</td>
+          <td><strong>Owner</strong></td>
+          <td>Informed</td>
+        </tr>
+        <tr>
+          <td>UPS / generator / LPG chain healthy</td>
+          <td><strong>Owner</strong> (maintain/test/escalate)</td>
+          <td>Vendor / engineering support</td>
+        </tr>
+        <tr>
+          <td>Process logic on SCADA</td>
+          <td>Support (power, permits, outages)</td>
+          <td><strong>Owner</strong></td>
+        </tr>
+        <tr>
+          <td>Repeat electrical fault on utility asset</td>
+          <td><strong>Owner</strong> (RCA + PM update)</td>
+          <td>Consulted if control-related</td>
+        </tr>
+        <tr>
+          <td>Commissioning new zone (e.g. PC-20)</td>
+          <td><strong>Owner</strong> follow-up</td>
+          <td>Project / contractor interfaces</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="viz-section">
+      <h2>Architecture view (diagram)</h2>
+      <div class="mermaid-wrap">
+        <pre class="mermaid">
+flowchart TB
+  subgraph grid [Grid and backbone]
+    HV[HV / MV intake]
+    LV[LV distribution]
+  end
+  subgraph continuity [Continuity layer]
+    UPS[Multiple UPS systems]
+    GEN[Generator - furnace support]
+    LPG[LPG backup - gas network fail]
+  end
+  subgraph site [Site zones]
+    PC10[PC-10]
+    PC20[PC-20]
+    UB[Utility building]
+    BH[Batch House]
+    WH[Warehouse low O2]
+  end
+  subgraph auto [Automation]
+    SCADA[SCADA network]
+    WG[Waveguards / servos - partial SCADA]
+  end
+  HV --> LV
+  LV --> UPS
+  LV --> GEN
+  LPG --> BH
+  LV --> PC10
+  LV --> PC20
+  LV --> UB
+  LV --> BH
+  LV --> WH
+  SCADA --> PC10
+  SCADA --> PC20
+  WG --> PC10
+        </pre>
+      </div>
+      <p class="viz-caption">Figure 2 — Simplified power and interface map (for teamleader overview).</p>
+    </section>
+
+    <div class="callout">
+      <strong>Applicant advantage:</strong> I already work inside this complexity as an electrician — I do not need six months to discover that Utilities is more than “panels and cables.”
+    </div>
+  </main>
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral', securityLevel: 'loose' });
+  </script>
+</body>
+</html>
