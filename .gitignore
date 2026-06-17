@@ -1,0 +1,15 @@
+# CAD files exceed GitHub's 100 MB limit — keep locally
+*.dwg
+*.dxf
+*.converted.dxf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KPI &amp; Statistical Method — Utilities Improvement</title>
+  <link rel="stylesheet" href="assets/print.css">
+</head>
+<body>
+  <nav class="toolbar no-print">
+    <a href="index.html" class="secondary">← All documents</a>
+    <button type="button" onclick="window.print()">Print / Save PDF</button>
+  </nav>
+
+  <main class="page page-wide page-doc">
+    <header class="doc-header">
+      <h1>KPI &amp; Statistical Method</h1>
+      <p class="subtitle">How regular measurement drives better utilities performance</p>
+      <div class="contact-row">
+        <span>Łukasz Klimowski</span>
+        <span class="sep">|</span>
+        <span>Tools: Excel · Power BI · Python · SQL</span>
+      </div>
+    </header>
+
+    <p class="lead">I work in a <strong>statistical way</strong>: measure → detect pattern → act → verify. Without periodic checking, repeat faults look like “bad luck”; with KPIs, they become <strong>manageable system behaviour</strong>. Illustrative charts below show the <em>type</em> of impact I aim for (based on COMEX and consulting practice — not Ciner Glass confidential data).</p>
+
+    <section class="viz-section">
+      <h2>1. KPI loop — what I run weekly</h2>
+      <div class="mermaid-wrap">
+        <pre class="mermaid">
+flowchart LR
+  M[Collect data - CMMS logs] --> P[Pareto top repeat faults]
+  P --> R[Root cause on top 3]
+  R --> A[Assign owner and date]
+  A --> V[Verify next week KPI]
+  V --> M
+        </pre>
+      </div>
+
+      <table class="data-table">
+        <tr><th>KPI</th><th>Why it matters</th><th>Typical action if red</th></tr>
+        <tr><td>Repeat fault rate (same asset/tag)</td><td>Shows systemic gap, not technician error</td><td>RCA, PM update, training, parts</td></tr>
+        <tr><td>PM completion %</td><td>Prevents continuity failures (UPS/gen)</td><td>Reschedule + root cause for miss</td></tr>
+        <tr><td>MTTR electrical (critical)</td><td>Production feels utilities quality</td><td>Spares, access, night prep</td></tr>
+        <tr><td>Open actions &gt; 14 days</td><td>Management visibility</td><td>Escalate or close with reason</td></tr>
+        <tr><td>Contractor first-time fix</td><td>Independent electricians quality</td><td>Coaching or vendor review</td></tr>
+      </table>
+    </section>
+
+    <section class="viz-section">
+      <h2>2. Visualisation — repeat faults (illustrative)</h2>
+      <p class="viz-caption">Figure 1 — Example: top repeat electrical fault categories before/after structured RCA (COMEX-style service data).</p>
+
+      <p><strong>Before</strong> — reactive month (indexed volume)</p>
+      <div class="kpi-chart">
+        <div class="kpi-row">
+          <span class="label">UPS alarms / trips</span>
+          <div class="bar-track"><div class="bar-fill before" style="width:78%"></div></div>
+          <span class="val">78</span>
+        </div>
+        <div class="kpi-row">
+          <span class="label">Distribution trips</span>
+          <div class="bar-track"><div class="bar-fill before" style="width:65%"></div></div>
+          <span class="val">65</span>
+        </div>
+        <div class="kpi-row">
+          <span class="label">Incomplete PM</span>
+          <div class="bar-track"><div class="bar-fill before" style="width:52%"></div></div>
+          <span class="val">52</span>
+        </div>
+        <div class="kpi-row">
+          <span class="label">Contractor revisit</span>
+          <div class="bar-track"><div class="bar-fill before" style="width:48%"></div></div>
+          <span class="val">48</span>
+        </div>
+      </div>
+
+      <p><strong>After</strong> — 3-month Pareto + RCA programme (same index scale)</p>
+      <div class="kpi-chart">
+        <div class="kpi-row">
+          <span class="label">UPS alarms / trips</span>
+          <div class="bar-track"><div class="bar-fill good" style="width:32%"></div></div>
+          <span class="val">32</span>
+        </div>
+        <div class="kpi-row">
+          <span class="label">Distribution trips</span>
+          <div class="bar-track"><div class="bar-fill good" style="width:28%"></div></div>
+          <span class="val">28</span>
+        </div>
+        <div class="kpi-row">
+          <span class="label">Incomplete PM</span>
+          <div class="bar-track"><div class="bar-fill good" style="width:18%"></div></div>
+          <span class="val">18</span>
+        </div>
+        <div class="kpi-row">
+          <span class="label">Contractor revisit</span>
+          <div class="bar-track"><div class="bar-fill good" style="width:22%"></div></div>
+          <span class="val">22</span>
+        </div>
+      </div>
+      <p><em>Illustrative indices only — demonstrates how I communicate improvement to management and electricians.</em></p>
+    </section>
+
+    <section class="viz-section">
+      <h2>3. Constant checking → system quality</h2>
+      <div class="flow-chain">
+        <span class="flow-node">Weekly KPI</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-node">Team sees trend</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-node">Focus on top 3</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-node">Less firefighting</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-node">Higher trust</span>
+      </div>
+      <p>Electricians benefit because priorities are <strong>data-backed</strong>, not changed every hour. Management benefits because utilities performance is <strong>visible before</strong> production stops.</p>
+    </section>
+
+    <section class="viz-section">
+      <h2>4. What I would implement at Ciner Glass Lommel</h2>
+      <ul class="achievements">
+        <li><strong>One-page weekly</strong> utilities dashboard (print + screen).</li>
+        <li><strong>Asset/zone tagging</strong> aligned to PC-10, PC-20, Utility, Batch, warehouses.</li>
+        <li><strong>Separate tracking</strong> for continuity assets: UPS, generator, LPG chain.</li>
+        <li><strong>SCADA vs non-SCADA</strong> fault codes — avoid mixing control issues with power supply issues.</li>
+        <li><strong>Team board</strong> in electrical workshop — electricians see their own improvement (not only blame).</li>
+      </ul>
+    </section>
+
+    <section class="viz-section">
+      <h2>5. Solution selection — KPI influences decision</h2>
+      <table class="data-table">
+        <tr><th>If KPI shows…</th><th>Solution direction</th></tr>
+        <tr><td>Same UPS alarm weekly</td><td>Battery/test procedure RCA, not only reset</td></tr>
+        <tr><td>PM miss on generator</td><td>Planning + accountability, fuel/test checklist</td></tr>
+        <tr><td>Spike after PC-20 commissioning</td><td>Zone ownership review, as-built check</td></tr>
+        <tr><td>Contractor revisit &gt; 30%</td><td>Scope briefing + quality gate before sign-off</td></tr>
+        <tr><td>Long open SCADA-related tickets</td><td>Joint triage: power vs control owner</td></tr>
+      </table>
+    </section>
+
+    <div class="callout">
+      <strong>Advantage:</strong> Many teamleader candidates lead by experience only. I lead by experience <strong>and</strong> measurable cycles — suited to a multi-system site like Lommel.
+    </div>
+  </main>
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral', securityLevel: 'loose' });
+  </script>
+</body>
+</html>
