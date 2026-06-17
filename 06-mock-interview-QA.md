@@ -38,6 +38,10 @@
 - At Northvolt my role connected daily with **production, quality, after-sales and warehouse** — I'm used to cooperating with people from different backgrounds and naturally taking the lead in mixed groups.
 - I translate shop-floor facts into clear actions each side can act on, and I keep one source of truth so departments aren't working off different stories.
 
+**Q: How would you get a tired night-shift technician to report data honestly into your KPI system?**
+- Be honest about the tension: skilled electricians hate paperwork and distrust metrics that police minutes.
+- My answer: make reporting take seconds; show the team what their data *changed* (a recurring fault finally fixed, a budget item won); and never use it against them. **Data is there to offload the floor, not to rank people.** People report when the data visibly works for them.
+
 **Q: A technician keeps making the same mistake. What do you do?**
 - First the fact: is it knowledge, tooling, or time pressure? (root cause at the human level).
 - Mentor pair + a short work standard + a check after one week. Escalate only if there's no improvement despite support.
@@ -51,6 +55,11 @@
 
 **Q: Describe the biggest fault you resolved.**
 - Northvolt, battery production line: production-critical fault, pressure to restart → 5-Why RCA → documentation → preventive check added to routine + **Kaizen** continuous improvement during the production setup → **repair time (MTTR) cut by ~65%**, turning a repeat firefight into structural prevention.
+
+**Q: A switchboard / line is down and production is at risk. What do you do? (crisis under pressure)**
+- A continuous glass furnace doesn't forgive a utilities outage. Priorities, in order: **make it safe → restore power → communicate.**
+- In that moment **MTTR and uptime are the only metrics that matter** — I take full ownership, coordinate the response, and decide under time pressure.
+- The Pareto/KPI analysis comes **after the battle**, to turn the incident into preventive/predictive action so it doesn't repeat. Act fast in the moment; think structurally afterwards.
 
 **Q: How do you see utilities on this site?**
 - Holistically — the whole power path plus specialist systems: LV/MV/HV distribution and protections; continuity (several UPS, generator supporting the furnace on grid loss); LPG as gas backup; SCADA interfaces (some drives off SCADA).
@@ -84,8 +93,11 @@
 
 ## 4. Safety & regulations
 
+**Safety-first headline:** "My number-one goal as teamleader is simple — **every electrician goes home healthy.** In a high-voltage, LPG and critical-media environment, that comes before schedule, always."
+
 **Q: Example of LOTO / work permit / safe isolation?**
 - VCA + BA5; LOTO is daily routine for me — at Northvolt and now on the Lommel site. The drill: isolate the area, lock and **tag** it, verify it's de-energised and safe, do the work, then bring it back together and restore to service only after confirmation.
+- Beyond LOTO: **5S audits** in control cabinets/switchgear (order is a safety control) and a **near-miss reporting culture** — surface hazards before they become incidents, no blame for reporting.
 - Point: "Energy control is routine, not an exception — fast, but never around the procedure."
 
 **Q: Production pushes to "just fix it quickly" without procedure. What do you do?**
@@ -107,8 +119,9 @@
 
 ## 6. Motivation & tricky questions
 
-**Q: Why team leader if you're an electrician now?**
+**Q: Why team leader if you're an electrician now? / You only joined in March — isn't it early to lead?**
 - "Because I already led 30+ electricians for 8 years and I know this site from the floor. That's a rare combination: an external candidate learns the site after hiring — I'm already here. I'm applying on potential backed by proof."
+- **Turn the short tenure into a strength:** "My short time on site is actually an advantage — I haven't absorbed the routine, so **no factory blindness**; I bring fresh external best practice. And I've had exactly enough time to map the critical utilities points. The leadership itself isn't new — that's 8 years and 30+ people at COMEX."
 
 **Q: Why Ciner Glass / Lommel?**
 - Ultra-modern glassworks, critical electrical infrastructure, the chance to help shape a team from the start. [Add 1–2 honest sentences in your own words.]
@@ -132,19 +145,4 @@
 ---
 
 ## ✅ ESTABLISHED (from your CVs + messages)
-- **COMEX SA, Gdańsk — Sep 2008–Oct 2016 (8 yrs):** Head of Service → Deputy → Technician. Guaranteed power-supply (UPS) service: 2,000 units in Poland; **98% SLA met** (2h response / 4h replacement target); LV 230/400V; 10 internal + 20+ external; parts, warehouse, customs; KPI reports to the board; bank server rooms & factories. In-house CMMS + CRM.
-- **Self-employed (electrical install/service):** Mar 2016 – Jan 2018.
-- **Prodrive Technologies, Eindhoven — May 2018–Feb 2020:** Service/Maintenance Engineer (Magnetics); preventive/corrective, escalation to Quality/R&D.
-- **Northvolt Poland, Gdańsk — Nov 2020–Sep 2023:** Maintenance Engineer; **batteries / battery power modules → DC up to 900 V**; RCA, reduced failure recurrence.
-- **Engineering consultant (self-employed):** Sep 2023 – Dec 2025; KPI dashboards (Power BI/Python/SQL), maintenance assessments.
-- **Ciner Glass, Lommel — Electrician, Electrical Utilities, from March 2026** (decided framing for this application; on-site technician, no coordination).
-- **Education:** M.Sc. Eng. Electronics & Telecommunications, Koszalin University of Technology, 2007; Electronics Technician, Koszalin, 2001; Data Science course (Invest in Pomerania), 2020–2022.
-- **Authorisations:** SEP E&D **up to 1 kV** (LV); BA5 (BE, industrial LV); VCA (BE+NL); IPC-A-610, IPC-7711/21; driving licence B; forklift, reach truck, MEWP.
-- **Languages:** English C1, Polish native, Dutch beginner (course).
-
-## ✅ All key facts now captured
-- Northvolt: MTTR cut ~65% + Kaizen; cross-functional (production/quality/after-sales/warehouse).
-- LOTO: daily routine (isolate → lock/tag → verify → work → restore).
-- Leadership: servant leadership — "How can I help?".
-- COMEX: 2,000 UPS, 98% SLA (2h/4h).
-*(Optional later: confirm whether the 65% metric is MTTR or MTBF, and add any COMEX repeat-failure % if you have it.)*
+- **COMEX SA, Gdańsk 

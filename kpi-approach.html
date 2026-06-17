@@ -23,7 +23,13 @@
       </div>
     </header>
 
-    <p class="lead">I work in a <strong>statistical way</strong>: measure → detect pattern → act → verify. Without periodic checking, repeat faults look like “bad luck”; with KPIs, they become <strong>manageable system behaviour</strong>. Illustrative charts below show the <em>type</em> of impact I aim for (based on COMEX and consulting practice — not Ciner Glass confidential data).</p>
+    <p class="lead">I work in a <strong>statistical way</strong>: measure → detect pattern → act → verify. Without periodic checking, repeat faults look like “bad luck”; with KPIs, they become <strong>manageable system behaviour</strong>. Beyond standard KPIs I also use <strong>TPM</strong> and, where a parameter must stay within range, <strong>statistical process control (SPC)</strong> with upper/lower control limits. Illustrative charts below show the <em>type</em> of impact I aim for (based on COMEX and consulting practice — not Ciner Glass confidential data).</p>
+
+    <div class="callout" style="border-left:4px solid #047857;">
+      <strong>Data serves the team — it is not a control tool.</strong> Electricians dislike paperwork, and rightly distrust metrics used to police minutes. So I am explicit: I collect data to <em>help</em> the floor, not to rank people. A repeat-fault Pareto exists to prove to management that a component must be modernised in the budget — because it keeps breaking and making the technicians’ work harder. KPIs win them spare parts, prevention and quieter shifts.
+      <br><br>
+      <strong>“How would you get a tired night-shift technician to report data honestly?”</strong> By making reporting take seconds, by showing the team what their data changed (a fixed recurring fault, a won budget item), and by never using it against them. People report when the data visibly works for them.
+    </div>
 
     <section class="viz-section">
       <h2>1. KPI loop — what I run weekly</h2>
@@ -132,23 +138,4 @@ flowchart LR
     <section class="viz-section">
       <h2>5. Solution selection — KPI influences decision</h2>
       <table class="data-table">
-        <tr><th>If KPI shows…</th><th>Solution direction</th></tr>
-        <tr><td>Same UPS alarm weekly</td><td>Battery/test procedure RCA, not only reset</td></tr>
-        <tr><td>PM miss on generator</td><td>Planning + accountability, fuel/test checklist</td></tr>
-        <tr><td>Spike after PC-20 commissioning</td><td>Zone ownership review, as-built check</td></tr>
-        <tr><td>Contractor revisit &gt; 30%</td><td>Scope briefing + quality gate before sign-off</td></tr>
-        <tr><td>Long open SCADA-related tickets</td><td>Joint triage: power vs control owner</td></tr>
-      </table>
-    </section>
-
-    <div class="callout">
-      <strong>Advantage:</strong> Many teamleader candidates lead by experience only. I lead by experience <strong>and</strong> measurable cycles — suited to a multi-system site like Lommel.
-    </div>
-  </main>
-
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true, theme: 'neutral', securityLevel: 'loose' });
-  </script>
-</body>
-</html>
+        <tr><th>If KPI show
