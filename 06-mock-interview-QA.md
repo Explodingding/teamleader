@@ -62,6 +62,7 @@
 - **Know when to escalate:** normal friction = coach + SBI; harassment/discrimination/safety = zero tolerance + HR, immediately. (Good to say with HR in the room.)
 - **The real constraint (name it honestly):** technicians work inside the factory unsupervised for hours, offices are outside, feedback is low — so I often hear only one side. My fixes: be on the floor (scheduled walk-downs), two quick touchpoints per job (plan huddle + 60-sec debrief), an on-floor deputy, make reporting take seconds and feel safe (used to help, never punish), and **never act on one side** — separate 1:1s + logs/timeline to triangulate before concluding.
 - Full version + an **example dialogue** (after a shouting incident) to present: **conflict-resolution.html**.
+- **If asked "what would you actually DO in the first months?"** → point to **team-cohesion-plan.html**: a 6-month programme (1. individual diagnosis → 2. on-site integration workshop with HR → 3. team co-builds a diversity/conflict programme → 4. 360° review every 6 months) + an 8-step conflict procedure. Shows you have an implementation plan, not just principles.
 
 **If they push back — likely hooks & comebacks:**
 - *"You don't speak Dutch/Turkish — how will you even see conflict coming?"* → "I don't need every word. I read **behaviour on the floor** (Gemba): who won't help whom, how handovers go, who splits off at lunch. I run 1:1s in a neutral language (English) about cooperation, not gossip."
@@ -141,7 +142,4 @@
 
 **Q: Why team leader if you're an electrician now? / You only joined in March — isn't it early to lead?**
 - "Because I already led 30+ electricians for 8 years and I know this site from the floor. That's a rare combination: an external candidate learns the site after hiring — I'm already here. I'm applying on potential backed by proof."
-- **Turn the short tenure into a strength:** "My short time on site is actually an advantage — I haven't absorbed the routine, so **no factory blindness**; I bring fresh external best practice. And I've had exactly enough time to map the critical utilities points. The leadership itself isn't new — that's 8 years and 30+ people at COMEX."
-
-**Q: Why Ciner Glass / Lommel?**
-- Ultra-modern glassworks, critical electrical infrastructure, the chance to help shape a team from the start. [Add 1–2 honest sentences in your ow
+- **Turn the short tenure into a strength:** "My short time on site is actually an advantage — I haven't absorbed the routine, so **no factory blind
