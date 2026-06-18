@@ -60,7 +60,8 @@
 - **Acute escalation (it happened on site this week):** step in and de-escalate, separate people; **never litigate it in front of the external contractors** who share the site — it hurts our credibility; address it 1:1 afterwards with SBI. **Behaviour red line:** yelling/aggression isn't acceptable — professionalism + safety.
 - **Cover the gap:** escalations spike when the lead is away (training/off-site, as happened). I'd put a clear **deputy/stand-in** so the floor always has a point of authority.
 - **Know when to escalate:** normal friction = coach + SBI; harassment/discrimination/safety = zero tolerance + HR, immediately. (Good to say with HR in the room.)
-- Full version to present: **conflict-resolution.html**.
+- **The real constraint (name it honestly):** technicians work inside the factory unsupervised for hours, offices are outside, feedback is low — so I often hear only one side. My fixes: be on the floor (scheduled walk-downs), two quick touchpoints per job (plan huddle + 60-sec debrief), an on-floor deputy, make reporting take seconds and feel safe (used to help, never punish), and **never act on one side** — separate 1:1s + logs/timeline to triangulate before concluding.
+- Full version + an **example dialogue** (after a shouting incident) to present: **conflict-resolution.html**.
 
 ---
 
@@ -160,8 +161,4 @@
 ## ✅ ESTABLISHED (from your CVs + messages)
 - **COMEX SA, Gdańsk — Sep 2008–Oct 2016 (8 yrs):** Head of Service → Deputy → Technician. Guaranteed power-supply (UPS) service: 2,000 units in Poland; **98% SLA met** (2h response / 4h replacement target); LV 230/400V; 10 internal + 20+ external; parts, warehouse, customs; KPI reports to the board; bank server rooms & factories. In-house CMMS + CRM.
 - **Self-employed (electrical install/service):** Mar 2016 – Jan 2018.
-- **Prodrive Technologies, Eindhoven — May 2018–Feb 2020:** Service/Maintenance Engineer (Magnetics); preventive/corrective, escalation to Quality/R&D.
-- **Northvolt Poland, Gdańsk — Nov 2020–Sep 2023:** Maintenance Engineer; **batteries / battery power modules → DC up to 900 V**; RCA, reduced failure recurrence.
-- **Engineering consultant (self-employed):** Sep 2023 – Dec 2025; KPI dashboards (Power BI/Python/SQL), maintenance assessments.
-- **Ciner Glass, Lommel — Electrician, Electrical Utilities, from March 2026** (decided framing for this application; on-site technician, no coordination).
-- **Education:** 
+- **Prodrive Technologies, Eindhoven — May 2018–Feb 2020:** Service/Maintenance Engineer (Magne
