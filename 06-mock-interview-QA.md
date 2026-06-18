@@ -56,6 +56,9 @@
 - **Fix it structurally:** agreed language rules (Dutch for official/safety + English as working bridge; visual work instructions so safety is understood by all); mixed mentor pairs + zone rotation; shared KPI board / one source of truth; transparent workload (kills the "they get easy jobs" resentment hiding behind language).
 - **Unite on a common goal** — people bond solving real problems together; recognise shared wins so identity shifts from "my language group" to "our utilities team."
 - **My unique angle:** as an English-speaking international I'm in *none* of the factions — a **neutral bridge**, fair to all. And I lead by example: I'm learning Dutch myself.
+- **Facts, not emotion:** on shift we discuss facts, data and KPIs — not accusations. Emotions are legitimate but handled the right way (1:1, break, HR/EAP), never as a shouting match. Calm, fact-based, adult communication — equal for all. *(Don't use the "like with children" analogy out loud — keep it professional.)*
+- **Acute escalation (it happened on site this week):** step in and de-escalate, separate people; **never litigate it in front of the external contractors** who share the site — it hurts our credibility; address it 1:1 afterwards with SBI. **Behaviour red line:** yelling/aggression isn't acceptable — professionalism + safety.
+- **Cover the gap:** escalations spike when the lead is away (training/off-site, as happened). I'd put a clear **deputy/stand-in** so the floor always has a point of authority.
 - **Know when to escalate:** normal friction = coach + SBI; harassment/discrimination/safety = zero tolerance + HR, immediately. (Good to say with HR in the room.)
 - Full version to present: **conflict-resolution.html**.
 
@@ -161,13 +164,4 @@
 - **Northvolt Poland, Gdańsk — Nov 2020–Sep 2023:** Maintenance Engineer; **batteries / battery power modules → DC up to 900 V**; RCA, reduced failure recurrence.
 - **Engineering consultant (self-employed):** Sep 2023 – Dec 2025; KPI dashboards (Power BI/Python/SQL), maintenance assessments.
 - **Ciner Glass, Lommel — Electrician, Electrical Utilities, from March 2026** (decided framing for this application; on-site technician, no coordination).
-- **Education:** M.Sc. Eng. Electronics & Telecommunications, Koszalin University of Technology, 2007; Electronics Technician, Koszalin, 2001; Data Science course (Invest in Pomerania), 2020–2022.
-- **Authorisations:** SEP E&D **up to 1 kV** (LV); BA5 (BE, industrial LV); VCA (BE+NL); IPC-A-610, IPC-7711/21; driving licence B; forklift, reach truck, MEWP.
-- **Languages:** English C1, Polish native, Dutch beginner (course).
-
-## ✅ All key facts now captured
-- Northvolt: MTTR cut ~65% + Kaizen; cross-functional (production/quality/after-sales/warehouse).
-- LOTO: daily routine (isolate → lock/tag → verify → work → restore).
-- Leadership: servant leadership — "How can I help?".
-- COMEX: 2,000 UPS, 98% SLA (2h/4h).
-*(Optional later: confirm whether the 65% metric is MTTR or MTBF, and add any COMEX repeat-failure % if you have it.)*
+- **Education:** 
