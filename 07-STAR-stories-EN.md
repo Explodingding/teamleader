@@ -82,4 +82,8 @@
 
 ## How to use these in the room
 - **Frame everything with safety first** — "my number-one goal is everyone goes home healthy" — then leadership, then reliability.
-- **Show pragmatism:** in a crisis, MTTR and uptime come first (make safe → restore → communicate); the statistics/Pareto come *after the battle* for preventive/predictive action. Use Story 6 (LOTO) + Stor
+- **Show pragmatism:** in a crisis, MTTR and uptime come first (make safe → restore → communicate); the statistics/Pareto come *after the battle* for preventive/predictive action. Use Story 6 (LOTO) + Story 2 (Northvolt MTTR −65%) to prove it.
+- Default opener = Story 1 (COMEX). It answers "tell me about your leadership" directly.
+- If pushed on hands-on/technical depth → Story 2 (Northvolt) + Story 5 (current site).
+- If asked about people/vendor problems → Story 3.
+- Keep each to ~90 seconds: one line Situation, one line Task, 2–3 lines Action, one line Result-with-number.

@@ -49,6 +49,16 @@
 **Q: Give an example of a difficult conversation.**
 - See STAR Case 3 (COMEX subcontractor repeat failures): failure-history Pareto → joint plan → vendor KPI follow-up → repeats down [NUMBER].
 
+**Q: How do you handle conflict — the team is dividing along language lines (Dutch / Turkish-speaking / English-speaking)? (RAISED BY THE MANAGER — prep this hard)**
+- **Take it seriously:** this friction is a safety and reliability risk, not just "atmosphere."
+- **Diagnose before judging** — 1:1 conversations first. Is it really language, or workload fairness / favouritism / unclear ownership? Groups form because information flows in-language → the fix is structural communication, not forcing people to socialise.
+- **Run the conversation with SBI** — Situation → Behavior → Impact: "Yesterday at the PC-20 handover (S), the update was given in only one language (B), so two electricians missed an isolation step (I)." Facts and impact, not labels/blame. Then ask their view (inquiry). Works across cultures because it removes accusation.
+- **Fix it structurally:** agreed language rules (Dutch for official/safety + English as working bridge; visual work instructions so safety is understood by all); mixed mentor pairs + zone rotation; shared KPI board / one source of truth; transparent workload (kills the "they get easy jobs" resentment hiding behind language).
+- **Unite on a common goal** — people bond solving real problems together; recognise shared wins so identity shifts from "my language group" to "our utilities team."
+- **My unique angle:** as an English-speaking international I'm in *none* of the factions — a **neutral bridge**, fair to all. And I lead by example: I'm learning Dutch myself.
+- **Know when to escalate:** normal friction = coach + SBI; harassment/discrimination/safety = zero tolerance + HR, immediately. (Good to say with HR in the room.)
+- Full version to present: **conflict-resolution.html**.
+
 ---
 
 ## 2. Technical — utilities & voltage
@@ -145,4 +155,19 @@
 ---
 
 ## ✅ ESTABLISHED (from your CVs + messages)
-- **COMEX SA, Gdańsk 
+- **COMEX SA, Gdańsk — Sep 2008–Oct 2016 (8 yrs):** Head of Service → Deputy → Technician. Guaranteed power-supply (UPS) service: 2,000 units in Poland; **98% SLA met** (2h response / 4h replacement target); LV 230/400V; 10 internal + 20+ external; parts, warehouse, customs; KPI reports to the board; bank server rooms & factories. In-house CMMS + CRM.
+- **Self-employed (electrical install/service):** Mar 2016 – Jan 2018.
+- **Prodrive Technologies, Eindhoven — May 2018–Feb 2020:** Service/Maintenance Engineer (Magnetics); preventive/corrective, escalation to Quality/R&D.
+- **Northvolt Poland, Gdańsk — Nov 2020–Sep 2023:** Maintenance Engineer; **batteries / battery power modules → DC up to 900 V**; RCA, reduced failure recurrence.
+- **Engineering consultant (self-employed):** Sep 2023 – Dec 2025; KPI dashboards (Power BI/Python/SQL), maintenance assessments.
+- **Ciner Glass, Lommel — Electrician, Electrical Utilities, from March 2026** (decided framing for this application; on-site technician, no coordination).
+- **Education:** M.Sc. Eng. Electronics & Telecommunications, Koszalin University of Technology, 2007; Electronics Technician, Koszalin, 2001; Data Science course (Invest in Pomerania), 2020–2022.
+- **Authorisations:** SEP E&D **up to 1 kV** (LV); BA5 (BE, industrial LV); VCA (BE+NL); IPC-A-610, IPC-7711/21; driving licence B; forklift, reach truck, MEWP.
+- **Languages:** English C1, Polish native, Dutch beginner (course).
+
+## ✅ All key facts now captured
+- Northvolt: MTTR cut ~65% + Kaizen; cross-functional (production/quality/after-sales/warehouse).
+- LOTO: daily routine (isolate → lock/tag → verify → work → restore).
+- Leadership: servant leadership — "How can I help?".
+- COMEX: 2,000 UPS, 98% SLA (2h/4h).
+*(Optional later: confirm whether the 65% metric is MTTR or MTBF, and add any COMEX repeat-failure % if you have it.)*

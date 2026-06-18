@@ -143,4 +143,48 @@
 
     <section class="viz-section">
       <h2>6. When it is critical — ownership under pressure</h2>
-      <p>A continuous glass furnace does not forgive a utilities outage — a power or switchboard failure can threaten the whole plant. When a line or a switchboard is &ldquo;on fire&rdquo;, my priorities are simple and in this order: <strong>make it safe → restore power → communicate</strong>. In that moment <strong>MTTR and uptime are the only metrics that matter</strong>: I take full owners
+      <p>A continuous glass furnace does not forgive a utilities outage — a power or switchboard failure can threaten the whole plant. When a line or a switchboard is &ldquo;on fire&rdquo;, my priorities are simple and in this order: <strong>make it safe → restore power → communicate</strong>. In that moment <strong>MTTR and uptime are the only metrics that matter</strong>: I take full ownership, coordinate the response, and decide under time pressure.</p>
+      <p>The statistics, Pareto and KPI analysis come <strong>after the battle</strong> — to turn the incident into <strong>preventive / predictive maintenance</strong> so it does not repeat. Act fast in the moment; think structurally afterwards.</p>
+    </section>
+
+    <section class="viz-section">
+      <h2>7. Safety culture — my foundation, not a footnote</h2>
+      <p><strong>My number-one goal as teamleader: every electrician goes home healthy.</strong> In a high-voltage, LPG and critical-media environment, safety is the priority before schedule, always.</p>
+      <ul class="achievements">
+        <li><strong>Rigorous LOTO</strong> (lockout/tagout), BA5, VCA, permit-to-work — no exceptions under schedule pressure.</li>
+        <li><strong>5S audits</strong> in control cabinets, panels and switchgear — order is a safety control, not cosmetics.</li>
+        <li><strong>Near-miss reporting culture</strong> — we surface and fix potential hazards <em>before</em> they become incidents, with no blame for reporting.</li>
+        <li>Teamleader models behaviour on site (my current role keeps this credible).</li>
+        <li>External and internal electricians: <strong>one safety standard, one documentation standard</strong>.</li>
+      </ul>
+    </section>
+
+    <div class="callout">
+      <strong>Why this differs from a typical applicant:</strong> Site knowledge from inside + COMEX-scale electrician leadership + habit of <strong>measuring before and after change</strong>. See <a href="leadership-edge.html">Leadership advantages →</a>
+    </div>
+
+    <section class="viz-section">
+      <h2>Process overview (diagram)</h2>
+      <div class="mermaid-wrap">
+        <pre class="mermaid">
+flowchart LR
+  A[Field electricians] --> B[Teamleader plan and support]
+  B --> C[KPI and logs]
+  C --> D{Repeat or critical?}
+  D -->|Yes| E[RCA and action owner]
+  D -->|No| F[Close in CMMS]
+  E --> G[Verify next cycle]
+  F --> G
+  G --> A
+        </pre>
+      </div>
+      <p class="viz-caption">Figure 2 — Continuous improvement loop for utilities team.</p>
+    </section>
+  </main>
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral', securityLevel: 'loose' });
+  </script>
+</body>
+</html>
