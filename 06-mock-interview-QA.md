@@ -63,6 +63,12 @@
 - **The real constraint (name it honestly):** technicians work inside the factory unsupervised for hours, offices are outside, feedback is low — so I often hear only one side. My fixes: be on the floor (scheduled walk-downs), two quick touchpoints per job (plan huddle + 60-sec debrief), an on-floor deputy, make reporting take seconds and feel safe (used to help, never punish), and **never act on one side** — separate 1:1s + logs/timeline to triangulate before concluding.
 - Full version + an **example dialogue** (after a shouting incident) to present: **conflict-resolution.html**.
 
+**If they push back — likely hooks & comebacks:**
+- *"You don't speak Dutch/Turkish — how will you even see conflict coming?"* → "I don't need every word. I read **behaviour on the floor** (Gemba): who won't help whom, how handovers go, who splits off at lunch. I run 1:1s in a neutral language (English) about cooperation, not gossip."
+- *"In an emergency, will you stop two guys solving it fast in Turkish?"* → "No — in a live fault, speed and safety win, any language. My rule is **Operational Safety Language**: anything that *leaves* the job — handover, fault report, LOTO — must be transparent in Dutch/English so knowledge isn't locked in one group. I respect mother tongues in private."
+- *"Rotation/mixed pairs will slow us down."* → "Not during breakdowns — there I send the fastest pair. Mixing and rotation happen **during planned PMs**. It's **business continuity**: if a zone is the 'elite's' private territory and they retire or get sick, I'm stuck. Cross-training is insurance — speed today, continuity tomorrow."
+- *"Facts-only sounds like a cold boss who ignores stress."* → "I get the stress. I don't say 'be a robot' — I say 'I see you're angry, sit, get water.' I cut emotion out of **technical decisions and mutual respect**, not out of being human. De-escalate first, then back to facts."
+
 ---
 
 ## 2. Technical — utilities & voltage
@@ -138,27 +144,4 @@
 - **Turn the short tenure into a strength:** "My short time on site is actually an advantage — I haven't absorbed the routine, so **no factory blindness**; I bring fresh external best practice. And I've had exactly enough time to map the critical utilities points. The leadership itself isn't new — that's 8 years and 30+ people at COMEX."
 
 **Q: Why Ciner Glass / Lommel?**
-- Ultra-modern glassworks, critical electrical infrastructure, the chance to help shape a team from the start. [Add 1–2 honest sentences in your own words.]
-
-**Q: Your biggest weakness?**
-- Honestly: Dutch is still developing, and I don't coordinate on this site today. But: a Dutch plan + the COMEX proof. Shows self-awareness, not an excuse.
-
----
-
-## 7. Questions YOU ask (pick 3–4)
-
-1. What's the timeline for the shift from site supervision (werfopvolging) to full team leadership?
-2. Initial team size and the ratio of internal vs external electricians?
-3. How will the Electrical Utilities team be structured during the build phase vs production?
-4. Which CMMS, and what KPI/reporting expectations for the team leader?
-5. Training budget and Dutch-language support?
-
-## 8. After the interview
-- Thank-you email within 24h: one concrete point from the conversation + enthusiasm for Lommel.
-
----
-
-## ✅ ESTABLISHED (from your CVs + messages)
-- **COMEX SA, Gdańsk — Sep 2008–Oct 2016 (8 yrs):** Head of Service → Deputy → Technician. Guaranteed power-supply (UPS) service: 2,000 units in Poland; **98% SLA met** (2h response / 4h replacement target); LV 230/400V; 10 internal + 20+ external; parts, warehouse, customs; KPI reports to the board; bank server rooms & factories. In-house CMMS + CRM.
-- **Self-employed (electrical install/service):** Mar 2016 – Jan 2018.
-- **Prodrive Technologies, Eindhoven — May 2018–Feb 2020:** Service/Maintenance Engineer (Magne
+- Ultra-modern glassworks, critical electrical infrastructure, the chance to help shape a team from the start. [Add 1–2 honest sentences in your ow
